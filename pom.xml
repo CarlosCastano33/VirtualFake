@@ -80,6 +80,9 @@
 			</plugin>
 <!--			________________________-->
 		</plugins>
+
+		<finalName>virtualfake</finalName>
+
 	</build>
 
 </project>
