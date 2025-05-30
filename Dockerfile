@@ -10,4 +10,4 @@ WORKDIR /app
 # Copia el JAR de la etapa 'build' a la etapa actual
 COPY --from=build /app/target/virtualfake.jar virtualfake.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","faker.jar"]
+ENTRYPOINT ["java","-jar","virtualfake.jar"]
